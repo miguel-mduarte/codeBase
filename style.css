@@ -1,0 +1,90 @@
+#icon {
+    margin: 10px;
+    margin-left: 30px;
+}
+header {
+    
+    display: flex;
+    background-color: #3B2C54;
+    color: white;
+    font-family: "azeret mono", monospace;
+    margin: 0px;
+    align-items: center;
+}
+header h1 {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+}
+header h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+}
+header b{
+    color: black;
+    background-color: white;
+}
+nav {
+    
+    border-top: 1px solid #f0f0f0;
+    display: flex; 
+    width: 100%;
+    background-color: #3B2C54;
+}
+main h1{
+    font-family: "azeret-mono", monospace;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    color:rgba(44, 44, 84, 1);
+    text-decoration-line: underline;
+}
+p{
+    color: black;
+    font-family: "Kodchasan", sans-serif;
+}
+
+
+
+#minhas-redes{
+    position: absolute;
+    right: 30px;
+}
+a{
+    margin: 0px;
+}
+.redes{
+
+    margin: 0px;
+}
+body {
+    margin: 0;
+}
+main {
+    margin: 0px;
+    padding: 5%;
+    background-color: rgba(195, 189, 201, 1);
+}
+
+main section {
+    margin-bottom: 5%;
+    padding: 5%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}   
+button{
+    flex: 1;
+    font-family: "azeret mono", sans-serif;
+    background-color: #3B2C54;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    font-family: "azeret mono", sans-serif;
+}
+button:hover {
+    background-color: #533f72;
+}
