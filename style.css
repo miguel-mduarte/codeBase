@@ -3,30 +3,35 @@ body {
 }
 #icon {
     margin: 10px;
-    margin-left: 30px;
+    position: relative;
 }
 header {
     width: 100%;
+    align-content: center;
     position: fixed;
     background-color: #3B2C54;
     color: white;
     font-family: "azeret mono", monospace;
     margin: 0px;
     top: 0px;
+    left: 0;
+    right: 0;
     box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.25);
-    
+    padding: 0px;
 }
+
 header h1 {
     font-size: 40px;
     font-weight: normal;
     margin: 0;
-    
+    color: white;
 }
 header h2 {
     font-size: 16px;
     font-weight: normal;
     margin: 0;
     margin-bottom: 7px;
+    color: white;
 }
 header b{
     color: black;
@@ -35,10 +40,27 @@ header b{
 header div {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+}
+header section{
+    position: relative;
 }
 #minhas-redes{
     position: absolute;
-    right: 30px;
+    right: 50px;
+}
+#minhas-redes button{
+    background-color: #3B2C54;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    font-family: "azeret mono", sans-serif;
+    margin: -5px;
+}
+#minhas-redes button:hover{
+    background-color: #533f72;
 }
 a{
     margin: 0px;
@@ -48,7 +70,7 @@ a{
     margin: 0px;
 }
 header nav {
-    bottom: 0px;
+    bottom: -10px;
     border-top: 1px solid #f0f0f0;
     display: flex; 
     width: 100%;
@@ -77,7 +99,7 @@ main section {
     margin-bottom: 30px;
     padding: 20px;
     background-color: #f0f0f0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.25);
 }   
 main h1{
     font-family: "azeret-mono", monospace;
@@ -91,8 +113,82 @@ p{
     color: black;
     font-family: "Kodchasan", sans-serif;
 }
+nav {
+    bottom: 0px;
+    border-top: 1px solid #f0f0f0;
+    display: flex; 
+    width: 100%;
+    background-color: #f0f0f0;
+}
+#filter{
+    padding: 0px;
+    justify-content:space-around;
+    width: 100%;
+    
+    
+}
+#filter button{
+    flex: 1;
+    font-family: "azeret mono", sans-serif;
+    background-color: #3B2C54;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    font-family: "azeret mono", sans-serif;
+    margin: 10px
+}
+#filter button:hover {
+    background-color: #533f72;
+}
+.project-head{
+    display: flex;
+    align-items: center;
+    font-family: "azeret-mono", monospace;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: #3B2C54;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
 
+}
+.project-head button{
+    background-color: #3B2C54;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    font-family: "azeret mono", sans-serif;
+}
+.project-head button:hover{
+    background-color: #533f72;
+}
+.project-head div {
+    position: absolute;
+    right: 60px;
+}
 
-
-
-
+.projects {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-left: 5px solid #3B2C54;
+    border-bottom: 5px solid #3B2C54;
+    box-shadow: 0px 5px 3px 0px rgba(0, 0, 0, 0.25);
+}
+.project-head h2{
+    text-align: center;
+}
+.content{
+    font-family: "azeret mono", sans-serif;
+    box-shadow: none;
+}
+.content h3{
+    
+    color:rgba(44, 44, 84, 1);
+}
