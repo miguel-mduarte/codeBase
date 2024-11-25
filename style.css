@@ -226,6 +226,7 @@ main nav {
     background-color: #3B2C54;
     align-items: center;
     justify-content: left;
+    box-shadow: none;
 }
 .project-head section button {
     background-color: #3B2C54;
