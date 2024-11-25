@@ -64,6 +64,8 @@ header section {
     align-items: center;
     flex-wrap: wrap;
     margin: 5px;
+    padding: 0px;
+    margin: 0px;
 }
 
 #minhas-redes button {
@@ -263,13 +265,16 @@ main nav {
 }
 @media (max-width: 442px) {
     header {
-        height: 110px;
+        height: 118px;
         flex-wrap: wrap;
-        
+        justify-content:center;
+    }
+    header div {
+        padding-top: 10px;
     }
     #menu{
         position: fixed;
-        top: 109px;
+        top: 118px;
     }
 
     main {
