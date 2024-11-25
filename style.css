@@ -74,10 +74,6 @@ header section {
     cursor: pointer;
     outline: none;
 }
-#minhas-redes img{
-    width: auto;
-    height: 25px;
-}
 
 #minhas-redes button:hover {
     background-color: #533f72;
@@ -92,6 +88,8 @@ a {
 
 .redes {
     margin: 0;
+    width: auto;
+    height: 25px;
 }
 
 #menu {
@@ -232,6 +230,10 @@ main nav {
 
 .project-head button:hover {
     background-color: #533f72;
+}
+.icon {
+    width: auto;
+    height: 25px;
 }
 
 .projects {
