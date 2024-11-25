@@ -218,9 +218,9 @@ main nav {
 }
 .project-head section {
     display: flex;
-    margin: 0;
-    padding: 0;
-    border: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
     background-color: #3B2C54;
     align-items: center;
     justify-content: left;
