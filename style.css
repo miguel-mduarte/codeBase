@@ -233,7 +233,7 @@ main nav {
     outline: none;
 }
 
-.project-head button:hover {
+.project-head  section button:hover {
     background-color: #533f72;
 }
 .icon {
