@@ -216,14 +216,19 @@ main nav {
     text-decoration: none;
     color: white;
 }
-.project-head div {
+.project-head section {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #3B2C54;
     align-items: center;
+    justify-content: left;
 }
-.project-head div button {
+.project-head section button {
     background-color: #3B2C54;
     color: white;
     border: none;
-    padding: 10px;
     cursor: pointer;
     outline: none;
 }
